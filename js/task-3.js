@@ -16,3 +16,11 @@ inputEL.addEventListener("input", (event) => {
   //     outputEl.textContent = "Anonymous";
   //   }
 });
+
+const inputForm = document.querySelector("input");
+
+inputForm.classList.add("inputStyle");
+
+const firstEL = document.querySelector("h1");
+
+firstEL.classList.add("firstElStyle");

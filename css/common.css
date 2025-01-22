@@ -24,3 +24,28 @@ img {
   object-fit: cover; /* Адаптувати зображення до потрібного розміру */
   margin: 10px 0; /* Відступ між картинками */
 }
+.inputStyle {
+  width: 360px;
+  /* height: 40px; */
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inputStyle::placeholder {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2e2f42;
+}
+.firstElStyle {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
