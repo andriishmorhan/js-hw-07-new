@@ -23,3 +23,9 @@ registerForm.addEventListener("submit", (event) => {
   console.log(`Login: ${login}, Password: ${password}`);
   event.target.reset();
 });
+
+registerForm.classList.add("formStyle");
+
+const formInputLabels = document.querySelectorAll("label");
+
+formInputLabels.classList.add("formInputLabel");
