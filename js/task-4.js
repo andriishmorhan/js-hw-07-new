@@ -28,4 +28,10 @@ registerForm.classList.add("formStyle");
 
 const formInputLabels = document.querySelectorAll("label");
 
-formInputLabels.classList.add("formInputLabel");
+formInputLabels.forEach((label) => {
+  label.classList.add("formInputLabel");
+});
+
+const btnStyle = document.querySelector("button");
+
+btnStyle.classList.add("buttonStyle");
