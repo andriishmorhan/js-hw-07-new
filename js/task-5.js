@@ -15,3 +15,5 @@ button.addEventListener("click", () => {
   bodyEl.style.backgroundColor = randomColor;
   spanEl.textContent = randomColor;
 });
+
+button.classList.add("btnStyle");
